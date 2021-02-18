@@ -18,7 +18,7 @@ class Ball{
             push();
             translate(pos.x,pos.y);
             fill("blue");
-            ellipse(0,0,this.width,this.height)
+            ellipse(0,0,this.width,this.height,this.bobDiameter,this.r);
             pop();
         }
     }
